@@ -1,0 +1,21 @@
+<%- include('./partials/header')%>
+<div class="container mt-5">
+    <h3>
+       sending...
+    </h3>
+    <form action="/send-mail" method="POST">
+        <input
+            class="mb-3 form-control w-75"
+            type="email"
+            placeholder="Send mail"
+            name="sendMail"
+        />
+
+       
+       
+
+        <button class="btn btn-success">SEND</button>
+    </form>
+</div>
+
+<%- include('./partials/footer')%>
